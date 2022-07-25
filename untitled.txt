@@ -1,0 +1,44 @@
+Communicator 1|      Language used         |Communicator 2
+
+
+case 1:
+              |    Binary Language         |
+Machine A     |    <=================>     |Machine B
+
+
+case 2:
+
+                   human readable Lang.
+Human Being A |    <=================>     | Human Being B  
+
+
+
+case 3:
+                   human readable Lang.
+Human Being A |    <=================>     | Machine B ======> Raise a conflict, because                                                                      machine's don't understand                                                                        Human language
+
+
+
+
+In this case we need something like mediator to translate b/w both of them(Human and Machine)
+
+so here the  Mediator is ##Encoders
+
+->Encoders act as mediators and convert english words to numeric values
+   so that our human readable language converted to Machine Readable Lang. 
+
+                                    converted to
+ i.e`` [either words or sentences]    ========>   [Numeric/Binary form]
+  
+  
+  Example:
+  
+       ['Survived', 'Not survived']   ======= Encoder =====>    [0, 1]
+
+
+
+
+
+
+
+
